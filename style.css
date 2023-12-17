@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 80vh;
+}
+
+h1 {
+  color: maroon;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.main-container {
+  width: 50%;
+  height: fit-content;
+
+  padding: 20px;
+  border: 3px solid black;
+  margin: 30px auto;
+}
+
+.contents-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.rest-img {
+  height: 170px;
+}
+
+table {
+  width: 50%;
+  height: fit-content;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table td {
+  padding: 3px 30px 3px 5px;
+  border: solid 2px blue;
+  border-collapse: collapse;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.text a {
+  color: black;
+  font-weight: 600;
+}
+
+.list-links {
+  color: black;
+  text-decoration: none;
+}
+
+.list-links:visited {
+  color: brown;
+}
+
+.list-links:active {
+  color: cadetblue;
+}
+
+ul li:nth-child(1) {
+  list-style: none;
+  text-align: left;
+  position: relative;
+  right: 30px;
+}
